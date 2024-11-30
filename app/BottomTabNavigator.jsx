@@ -42,6 +42,3 @@ export default function BottomTabNavigator() {
   );
 }
 
-
-//mario@gmail.com
-//Mario-123
