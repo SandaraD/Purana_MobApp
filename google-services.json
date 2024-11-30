@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1023815844285",
+    "project_id": "purana-f9f3a",
+    "storage_bucket": "purana-f9f3a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023815844285:android:7cf68fdd657632ec8bd2d4",
+        "android_client_info": {
+          "package_name": "com.sandaradewmini.purana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023815844285-8kmsc3fu1ffuih3kts0usmn4spq78459.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTG247lTVozHvVkJaIB2Z_GwbRgfq7jo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023815844285-8kmsc3fu1ffuih3kts0usmn4spq78459.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023815844285-9gf4ivtrthakpd0h3qd0jhglohm5t1ig.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sandaradewmini.purana"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

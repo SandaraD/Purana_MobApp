@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Final-Mobile-App",
+    "slug": "Final-Mobile-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Purana_Logo.jpeg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "newArchEnabled": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "newArchEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
