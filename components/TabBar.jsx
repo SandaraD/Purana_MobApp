@@ -5,12 +5,12 @@ import Entypo from '@expo/vector-icons/Entypo';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-// Custom tabbar icons for navigation
-const TabBar = ({ state, descriptors, navigation }) => {
-    const primaryColor = '#0891b2'; // Active tab color
-    const greyColor = '#737373'; // Inactive tab color
 
-    // Icons associated with routes
+const TabBar = ({ state, descriptors, navigation }) => {
+    const primaryColor = '#0891b2'; 
+    const greyColor = '#737373'; 
+
+
     const icons = {
         explore: (props) => <FontAwesome6 name="compass" size={20} color={props.color} {...props} />,
         nearest: (props) => <MaterialCommunityIcons name="map-marker-radius" size={20} color={props.color} {...props} />,
@@ -35,7 +35,7 @@ const TabBar = ({ state, descriptors, navigation }) => {
 
                 const isFocused = state.index === index;
 
-                // Handle navigation on press
+               
                 const onPress = () => {
                     const event = navigation.emit({
                         type: "tabPress",
@@ -48,7 +48,7 @@ const TabBar = ({ state, descriptors, navigation }) => {
                     }
                 };
 
-                // Handle long press (optional)
+                
                 const onLongPress = () => {
                     navigation.emit({
                         type: "tabLongPress",
@@ -56,7 +56,7 @@ const TabBar = ({ state, descriptors, navigation }) => {
                     });
                 };
 
-                // Get the icon component for the current route
+                
                 const IconComponent = icons[route.name];
                 if (!IconComponent) return null;
 
